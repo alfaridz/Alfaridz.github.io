@@ -1,0 +1,43 @@
+h1{
+	padding: 15px;
+	position: 50%;
+	text-align: center;
+	top: 50%;
+	font-family: "ALGERIAN";
+	background-color: pink;
+}
+
+.Back{
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	width: 750px;
+	height: 500px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 15px 25px rgba(0,0,0,2);
+}
+
+body{
+		background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+h2{
+	margin-left: 20px;
+}
+
+.LinkForm{
+	
+	margin-left: 55px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+
+input[class="LinkForm"]:hover{
+	color: yellow;
+}
