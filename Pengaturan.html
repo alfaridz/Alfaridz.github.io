@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pengaturan</title>
+
+	<link rel="stylesheet" type="text/css" href="Pengaturan.css">
+</head>
+<body>
+
+	<div class="head">
+		<p class="pengaturan">Pengaturan</p>
+
+		<a href="Prestasi.html"><img src="trophy.png" class="trophy"></a>
+
+		<a href="Koleksi.html"><img src="buku.png" class="buku"></a>
+
+		<a href="Coins.html"><img src="coins.png" class="coins"></a>
+
+		<a href="index.html"><img src="logout.png" class="logout"></a>
+	</div>
+
+	<div class="menu">
+		<a href="Beranda.html"><i><p class="Beranda">Kembali ke Beranda</p></i></a>
+	</div>
+
+	<div class="kotak">
+		<p class="judul">Edit Profil</p>
+
+		<div class="per1">
+			<p class="edit"><b>Edit Nama</b></p>
+		</div>
+
+		<div class="per1">
+			<p class="edit"><b>Edit Foto</b></p>
+		</div>
+
+		<div class="per1">
+			<p class="edit"><b>Edit Prestasi</b></p>
+		</div>
+	</div>
+
+	<div class="kotak2">
+		<p class="judul">Lainnya</p>
+
+		<div class="per1">
+			<p class="edit"><b>Notifikasi</b></p>
+
+			<div class="tempat">
+				<div class="bulet"></div>
+			</div>
+		</div>
+
+		<div class="per1">
+			<p class="edit"><b>Naik Kelas</b></p>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var gbr = document.getElementById("gbr");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+gbr.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

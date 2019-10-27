@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beranda</title>
+
+	<link rel="stylesheet" type="text/css" href="Beranda.css">
+</head>
+<body>
+
+	<div class="head">
+		<img src="account.png" class="pp" id="gbr">
+
+		<p class="nama">Nama</p>
+
+		<p class="gelar"><i>suka membantu</i></p>
+
+		<a href="Prestasi.html"><img src="trophy.png" class="trophy"></a>
+
+		<a href="Koleksi.html"><img src="buku.png" class="buku"></a>
+
+		<a href="Coins.html"><img src="coins.png" class="coins"></a>
+
+		<a href="index.html"><img src="logout.png" class="logout"></a>
+	</div>
+
+	<div id="myModal" class="modal">
+
+  	<!-- Modal content -->
+  	<div class="modal-content">
+    <span class="close">&times;</span>
+    <a href="Pengaturan.html"><p class="keket">Pengaturan</p></a>
+  	</div>
+
+	</div>
+
+	<div class="menu">
+		<a href="Beranda.html"><p class="Beranda">Beranda</p></a>
+
+		<a href="Berita.html"><p class="Berita">Berita</p></a>
+
+		<a href="E-book.html"><p class="E-book">E-book</p></a> 
+
+		<a href="Pertanyaan.html"><p class="Pertanyaan">Pertanyaan</p></a>
+
+		<a href="Events.html"><p class="Events">Events</p></a>
+	</div>
+
+	<div class="pertanyaanmini">
+		<p class="judul">Pertanyaan</p>
+
+		<div class="per1">
+			<img src="account.png" class="ppkecil">
+
+			<p class="penanya"><b>MCDR</b></p>
+
+			<p class="tanya">2 + 2 * 5 + 20 - 70  : 5 - 10 + 3 * 9 = .....</p>
+			
+			<a href="PertanyaanDetail.html"><p class="lengkap">Lengkap >></p></a>
+			
+		</div>
+
+		<div class="per1">
+			<img src="account.png" class="ppkecil">
+
+			<p class="penanya"><b>Abi Abian</b></p>
+
+			<p class="tanya">Pak Tono baru membeli tanah seluas 33 * 52 m, beliau ingin memasang pagar mengelilingi tanah tsb. jika 1 pagar ....</p>
+
+			<p class="lengkap">Lengkap >></p>
+		</div>
+
+		<div class="per1">
+			<img src="account.png" class="ppkecil">
+
+			<p class="penanya"><b>ZOR i</b></p>
+
+			<p class="tanya">Pada suhu berapakah balok es menguap jika awal suhu balok es adalah -11 derajat C dan dipanaskan dengan suhu ....</p>
+
+			<p class="lengkap">Lengkap >></p>
+		</div>
+	</div>
+
+	<div class="slogan">
+		<p class="1">Sarjana</p>
+		<p class="2">belajar menjadi lebih menyenangkan</p>
+	</div>
+
+	<div class="beritamini">
+		<p class="judul">Berita</p>
+
+		<div class="ber1">
+			<img src="berita1.png" class="gamberita">
+
+			<p class="judulberita">Belum Merata Kualitas Pendidikan Dinilai karena Sulitnya Akses</p>
+
+			<a href="Berita1.html"><p class="lengkapber">Lengkap >></p></a>
+
+		</div>
+
+		<div class="ber1">
+			<img src="berita2.png" class="gamberita">
+
+			<p class="judulberita">Didukung Fasilitas, Pendidikan Daerah Tertinggal Diharapkan Maju</p>
+
+			<a href="Berita2.html"><p class="lengkapber">Lengkap >></p></a>
+		</div>
+
+		<div class="ber1">
+			<img src="berita3.png" class="gamberita">
+
+			<p class="judulberita">Guru Dituntut Bisa Ciptakan Inovasi Pembelajaran</p>
+
+			<a href="Berita3.html"><p class="lengkapber">Lengkap >></p></a>
+		</div>
+
+		<a href="Berita.html"><p class="beritalain">Berita lainnya >></p></a>		
+	</div>
+</body>
+</html>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var gbr = document.getElementById("gbr");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+gbr.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
