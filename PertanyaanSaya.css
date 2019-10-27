@@ -1,0 +1,208 @@
+body{
+		background-image: url(Beranda1.PNG);
+		background-size: cover;
+		background-attachment: fixed;
+}	
+
+.head{
+	margin-top: -10px;
+	margin-left: -10px;
+	position: absolute;
+	width: 1270px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: rgba(92, 98, 110,.8);
+	box-shadow: 0 15px 25px rgba(0,0,0,2);
+}
+
+.pp{
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0 10px 30px rgba(0,0,0,2);
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 80px;
+	height: 80px;
+}
+
+.nama{
+	margin-top:-80px;
+	margin-left: 150px;
+	font-size: 25px;
+	font-family: "Comic sans ms";
+	color: #B8E0FF;
+}
+
+.gelar{
+	margin-top: -15px;
+	margin-left: 150px;
+	font-size: 15px;
+	font-family: "Comic sans ms";
+	color: #F6F60E;
+}
+
+.trophy{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 950px;
+	width: 50px;
+	height: 50px;
+}
+
+.buku{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 1030px;
+	width: 50px;
+	height: 50px;
+}
+
+.coins{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: 1110px;
+	width: 50px;
+	height: 50px;
+}
+
+.logout{
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 1170px;
+	width: 100px;
+	height: 100px;
+}
+
+.menu{
+	margin-top: 100px;
+	margin-left: 680px;
+	position: absolute;
+	width: 565px;
+	height: 50px;
+	/*box-sizing: border-box;
+	border-radius: 5px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: rgba(255, 255, 255, .3);*/
+/*	box-shadow: 0 15px 25px rgba(0,0,0,2);*/
+/*	border-bottom: 2px solid rgba(255,0,0)*/
+}
+
+.menu p{
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;
+}
+
+.Pertanyaan{
+	text-shadow: 0 3px 3px rgba(255,0,0,1);
+	/*margin-top: -50px;
+	margin-left: 350px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;*/
+}
+
+/*.Beranda{
+	margin-top: 7px;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;
+	border-bottom: 2px dashed rgba(255,0,0);
+}
+
+.Berita{
+	margin-top: -50px;
+	margin-left: 130px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;
+}
+
+.E-book{
+	margin-top: -50px;
+	margin-left: 240px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;
+}
+
+.Events{
+	margin-top: -50px;
+	margin-left: 490px;
+	font-size: 20px;
+	font-family: "Comic sans ms";
+	color: #F2E14C;
+}
+*/
+.pertanyaanmini{
+	position: absolute;
+	margin: 170px 75px 0px;
+	width: 1100px;
+	height: 750px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, .5);
+	box-shadow: 0 15px 25px rgba(0,0,0,2);
+}
+
+.judul{
+	margin-top: -35px;
+	margin-left: 0px;
+	font-size: 25px;
+	font-family: "Comic sans ms";
+	color: #FFF700;
+}
+
+.per1{
+	margin: 15px auto 0;
+	height: 120px;
+	width: 1000px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 1);
+}
+
+/*.ppkecil{
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 1);
+	border: .5px solid black;
+	margin: 10px 0 0 25px;
+	padding-top: 45px;
+	padding-right: 5px;
+	width: 40px;
+	height: 40px;
+}*/
+
+/*.penanya{
+	margin: -44px 0 0 75px;
+	font-size: 15px;
+	font-family: "Comic sans ms";
+	color: #000000;
+}*/
+
+.tanya{
+	margin: 0px 0 0 25px;
+	font-size: 15px;
+	font-family: "Comic sans ms";
+	color: #000000;
+}
+
+.lengkap{
+	margin: 40px 900px;
+	font-size: 17px;
+	font-family: "Comic sans ms";
+	color: #000000;
+	width: 100px;
+}
+
+a{
+	text-decoration: none;
+}

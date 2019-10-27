@@ -1,0 +1,70 @@
+body{
+		background-image: url(BG1.jpg);
+		background-size: 100%;
+	/*	background-attachment: fixed;*/
+		background-position: fixed;
+}
+
+.Register{
+	margin-top: 50px;
+	margin-left: -600px;
+	/*position: absolute;*/
+}
+
+.Login{
+	margin-top: -75px;
+	margin-left: 0px;
+/*	position: absolute;*/
+}
+
+.per1{
+	margin: 30px 0 0 0;
+	height: 500px;
+	width: 1000px;
+/*	box-sizing: border-box;
+	border-radius: 15px;
+	background: rgba(255, 255, 255, .1);*/
+}
+
+.Slogan{
+	margin-top: 0px;
+	margin-left: 115px;
+	color: #B8E0FF;
+	font-size: 25px;
+	font-family: "Comic sans ms";
+}
+
+input[type="Submit"]{
+	background: #7B96EE;
+	border: 3px solid #ffff80;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 170px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 50px;
+	color: #B8E0FF;
+	display: block;
+	transition: 0.25s;
+	height: 50px;
+	font-size: 25px;
+	font-family: "Comic sans ms";
+	cursor: pointer;
+}
+
+input[type="Submit"]:hover{
+	width: 185px;
+	border-color: #ffc0cb;
+}
+
+img{
+	margin-top: 150px;
+	margin-left: 110px;
+	width: 350px;
+	height: 100px;
+}
+
+a{
+	text-decoration: none;
+}

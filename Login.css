@@ -1,0 +1,96 @@
+h1{
+	font-size: 50px;
+	margin: 60px 0 0 650px;
+	font-family: "ALGERIAN";
+}
+
+.Back{
+	margin: 120px 0 0 800px;
+/*	position: absolute;*/
+	width: 400px;
+	height: 280px;
+	text-align: center;
+/*	box-sizing: border-box;
+	border-radius: 30px;
+	background: rgba(255,255,255,.5);
+	box-shadow: 0 15px 25px rgba(0,0,0,2);*/
+}
+
+.Merek{
+	margin: -200px 0 0 -750px;
+	position: absolute;
+}
+
+body{
+		background-image: url(Login.png);
+		background-size: 100%;
+}
+
+.input{
+	
+/*	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	width: 400px;
+	margin: auto;
+	margin-top: 70px;
+	border-radius: 25px;
+}
+
+::placeholder{
+	color: white;
+	font-family: Comic sans ms;
+}
+
+.input input{
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+	height: 40px;
+	color: white;
+	background: #7B96EE;
+	border: 2px solid #000000;
+	width: 300px;
+	outline: none;
+	font-color:white;
+	font-size: 20px;
+/*	display: block;*/
+	transition: 0.5s;
+}
+
+.input input:focus{
+	width: 400px;
+	font-size: 20px;
+	border-color: #ffc0cb;
+	border-radius: 10px;
+}
+
+input[type="Submit"]{
+	background: #7B96EE;
+	border: 3px solid #ffff80;
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+	width: 100px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 50px;
+	color: #1a1a1a;
+/*	display: block;*/
+	transition: 0.25s;
+	height: 40px;
+	font-size: 15px;
+	font-family: "Comic sans ms";
+	cursor: pointer;
+}
+
+input[type="Submit"]:hover{
+	width: 125px;
+	border-color: #ffc0cb;
+}
+
+.lupa{
+	margin: auto;
+	margin-top: 20px;
+	font-family: Comic sans ms;
+}
