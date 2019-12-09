@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Prestasi</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="Prestasi.css">
 </head>
@@ -49,7 +50,7 @@
 
 			<i><p class="penjelasan">Membantu 10 orang</p></i>
 
-			<button class="sudahdapat1">Diperoleh</button>
+			<button id="myBtn" class="sudahdapat1">Diperoleh</button>
 
 		</div>
 
@@ -62,7 +63,7 @@
 
 			<i><p class="penjelasan">Mendapat 10x Jawaban Terbaik</p></i>
 
-			<button class="sudahdapat2">Diperoleh</button>
+			<button id="myBtn2" class="sudahdapat2">Diperoleh</button>
 
 		</div>
 
@@ -73,7 +74,7 @@
 
 			<i><p class="penjelasan">Membantu 25 orang</p></i>
 
-			<button class="sudahdapat1">Diperoleh</button>
+			<button id="myBtn3" class="sudahdapat1">Diperoleh</button>
 
 		</div>
 
@@ -102,6 +103,47 @@
 		</div>
 	</div>
 
+	<!-- The Modal -->
+	<div id="myModal" class="modal"></div>
+
+  	<!-- Modal content -->
+  	<div class="modaldalam">
+    <p>berhasil di klaim</p>
+    <button class="oke">ok</button>
+	</div>
+<!-- 
+    <div class="modaldalam2">
+    <p>Buku berhasil dibeli</p>
+    <button class="oke">ok</button>
+	</div> -->
+
 
 </body>
 </html>
+
+<script>
+
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#ngeblur").addClass("sudahblur");
+    $(".modal,.modaldalam").fadeIn(150);
+  });
+  $("#myBtn2").click(function(){
+    $("#ngeblur").addClass("sudahblur");
+    $(".modal,.modaldalam").fadeIn(150);
+  });
+  $("#myBtn3").click(function(){
+    $("#ngeblur").addClass("sudahblur");
+    $(".modal,.modaldalam").fadeIn(150);
+  });
+  $(".modal").click(function(){
+    $("#ngeblur").removeClass("sudahblur");
+    $(".modal,.modaldalam,").fadeOut(150);
+  });
+   $(".oke").click(function(){
+    $("#ngeblur").removeClass("sudahblur");
+    $(".modal,.modaldalam").fadeOut(150);
+  });
+});
+
+</script>
