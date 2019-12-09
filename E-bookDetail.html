@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>E-book</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="E-bookDetail.css">
 </head>
 <body>
-
+	<div id="ngeblur">
 	<div class="head">
 		<img src="account.png" class="pp">
 
@@ -68,13 +69,54 @@
 
 			<p class="ciri">Harga : 2700 Coin</p>
 
-			<a href=""><p class="offline">Offline kan</p></a>
+			<p class="offline" id="myBtn">Offline kan</p></a>
 
 		</div>
-
-		
+	</div>
 	</div>
 
+	<!-- The Modal -->
+	<div id="myModal" class="modal"></div>
+
+  	<!-- Modal content -->
+  	<div class="modaldalam">
+    <p>Anda yakin ingin membeli buku ini?</p>
+    <button class="no">tidak</button>
+    <button class="yes">iya</button>
+	</div>
+
+    <div class="modaldalam2">
+    <p>Buku berhasil dibeli</p>
+    <button class="oke">ok</button>
+	</div>
 
 </body>
 </html>
+
+<script>
+
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#ngeblur").addClass("sudahblur");
+    $(".modaldalam2").fadeOut(150);
+    $(".modal,.modaldalam").fadeIn(150);
+  });
+  $(".modal").click(function(){
+    $("#ngeblur").removeClass("sudahblur");
+    $(".modal,.modaldalam,.modaldalam2").fadeOut(150);
+  });
+   $(".no").click(function(){
+    $("#ngeblur").removeClass("sudahblur");
+    $(".modal,.modaldalam").fadeOut(150);
+  });
+  $(".yes").click(function(){
+    $(".modaldalam").fadeOut(150);
+    $(".modaldalam2").fadeIn(150);
+  });
+  $(".oke").click(function(){
+    $("#ngeblur").removeClass("sudahblur");
+    $(".modal,.modaldalam2").fadeOut(150);
+  });
+});
+
+</script>
